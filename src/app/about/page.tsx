@@ -42,7 +42,26 @@ export default function AboutPage() {
                 />
                 <div className="mt-6 text-center lg:text-left">
                   <h3 className="font-heading text-2xl font-bold text-ink">Captain V.S Chauhan</h3>
-                  <p className="mt-1 text-[15px] font-semibold tracking-wide text-primary-600 uppercase">Founder</p>
+                  <p className="mt-1 text-[15px] font-semibold tracking-wide text-primary-600 uppercase">Founder & Director</p>
+                  
+                  <ul className="mt-4 flex flex-col gap-2 text-sm text-slate-600 lg:text-left text-left mx-auto max-w-xs lg:mx-0">
+                    <li className="flex items-center gap-2">
+                      <span className="h-1.5 w-1.5 rounded-full bg-primary-600"></span>
+                      Retired from the Indian Army
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="h-1.5 w-1.5 rounded-full bg-primary-600"></span>
+                      34 Years of Administration Experience
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="h-1.5 w-1.5 rounded-full bg-primary-600"></span>
+                      Established Blue Heaven Hostel in 2012
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <span className="h-1.5 w-1.5 rounded-full bg-primary-600"></span>
+                      14+ Years running premium student housing
+                    </li>
+                  </ul>
                 </div>
               </div>
             </FadeIn>
