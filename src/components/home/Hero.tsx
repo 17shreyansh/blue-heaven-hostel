@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { ArrowRight, Phone, MessageCircle, Building2, Clock, ShieldCheck, MapPin } from "lucide-react";
 import Container from "@/components/shared/Container";
 import CTAButton from "@/components/shared/CTAButton";
@@ -15,7 +15,7 @@ const TRUST_INDICATORS = [
 ];
 
 // Clean, professional animation variants
-const staggerContainer = {
+const staggerContainer: Variants = {
   hidden: { opacity: 0 },
   show: {
     opacity: 1,
@@ -23,7 +23,7 @@ const staggerContainer = {
   },
 };
 
-const fadeInUp = {
+const fadeInUp: Variants = {
   hidden: { opacity: 0, y: 20 },
   show: { 
     opacity: 1, 

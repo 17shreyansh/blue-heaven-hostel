@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { Phone, MessageCircle, Mail, MapPin, ArrowRight } from "lucide-react";
 import Container from "@/components/shared/Container";
 import Logo from "./Logo";
@@ -11,7 +11,7 @@ import { SITE } from "@/data/site";
 import { telLink, whatsappLink, mailLink } from "@/lib/utils";
 
 // Scroll reveal animations
-const staggerContainer = {
+const staggerContainer: Variants = {
   hidden: { opacity: 0 },
   show: {
     opacity: 1,
@@ -19,7 +19,7 @@ const staggerContainer = {
   },
 };
 
-const fadeInUp = {
+const fadeInUp: Variants = {
   hidden: { opacity: 0, y: 20 },
   show: { 
     opacity: 1, 
@@ -31,8 +31,7 @@ const fadeInUp = {
 export default function Footer() {
   return (
     <footer className="border-t-2 border-slate-100 bg-white overflow-hidden">
-      {/* 
-        whileInView triggers the animation only when the footer scrolls into the viewport.
+      {/* whileInView triggers the animation only when the footer scrolls into the viewport.
         viewport={{ once: true }} ensures it only happens once.
       */}
       <Container>
