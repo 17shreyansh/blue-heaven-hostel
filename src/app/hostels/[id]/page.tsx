@@ -50,20 +50,39 @@ export default async function HostelDetailPage({ params }: Props) {
 
   // Get images from the public directory
   let images: string[] = [];
+  
   if (hostel.folderName) {
     const publicDir = path.join(process.cwd(), "public");
     const hostelImagesDir = path.join(publicDir, hostel.folderName);
     
     try {
-      if (fs.existsSync(hostelImagesDir)) {
-        const files = fs.readdirSync(hostelImagesDir);
-        images = files
-          .filter((file) => /\.(jpg|jpeg|png|gif|webp)$/i.test(file))
-          .map((file) => `/${hostel.folderName}/${file}`);
-      }
+      const getImagesRecursive = (dir: string, relativePath = ""): string[] => {
+        let results: string[] = [];
+        if (!fs.existsSync(dir)) return results;
+        
+        const list = fs.readdirSync(dir);
+        for (const file of list) {
+          const filePath = path.join(dir, file);
+          const stat = fs.statSync(filePath);
+          if (stat && stat.isDirectory()) {
+            results = results.concat(getImagesRecursive(filePath, path.join(relativePath, file)));
+          } else if (/\.(jpg|jpeg|png|gif|webp)$/i.test(file)) {
+            const webPath = path.join(relativePath, file).replace(/\\/g, '/');
+            results.push(`/${hostel.folderName}/${webPath}`);
+          }
+        }
+        return results;
+      };
+      
+      images = getImagesRecursive(hostelImagesDir);
     } catch (error) {
       console.error(`Error reading images for ${hostel.name}:`, error);
     }
+  }
+
+  // Fallback to predefined images if none were found
+  if (images.length === 0 && hostel.images) {
+    images = hostel.images;
   }
 
   const heroImage = images.length > 0 ? images[0] : null;
