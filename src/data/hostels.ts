@@ -9,10 +9,10 @@ export const HOSTELS: Hostel[] = [
   {
     id: "master-class",
     name: "Master Class Hostel",
-    gender: "Boys",
+    gender: "Girls",
     tagline: "Quiet floors, built for focus",
     description:
-      "A premium boys' hostel with quiet study floors and consistent daily housekeeping, built for the discipline exam season demands.",
+      "A premium girls' hostel with quiet study floors and consistent daily housekeeping, built for the discipline exam season demands.",
     longDescription:
       "Master Class Hostel was designed around one idea — that a student's room should help them concentrate, not distract them. Floors are kept quiet after study hours, common areas are cleaned daily, and every resident gets a dedicated study desk. It's a straightforward, well-run property for students who want their accommodation to simply work.",
     area: "Knowledge Park III, Greater Noida",
@@ -24,27 +24,39 @@ export const HOSTELS: Hostel[] = [
     highlightFacility: "Dedicated Study Floor",
     imageLabel: "Master Class Hostel — Exterior",
     folderName: "Master class",
-    image: "/Master class/WhatsApp Image 2026-06-19 at 11.33.43 AM.jpeg",
+    image: "/Master class/WhatsApp Image 2026-06-19 at 11.33.52 AM.jpeg",
+    images: [
+      "/Master class/WhatsApp Image 2026-06-19 at 11.33.52 AM.jpeg",
+      "/Master class/WhatsApp Image 2026-06-19 at 11.34.02 AM.jpeg",
+      "/Master class/WhatsApp Image 2026-06-19 at 11.34.12 AM.jpeg",
+      "/Master class/WhatsApp Image 2026-06-19 at 11.34.20 AM.jpeg",
+    ],
   },
   {
     id: "nalanda-heaven",
-    name: "Nalanda Heaven Girls Hostel",
+    name: "Heaven Girls Hostel",
     gender: "Girls",
     tagline: "Secure, supervised, comfortable",
     description:
       "A secure girls' hostel with round-the-clock women staff, verified entry systems and a calm residential environment.",
     longDescription:
-      "Nalanda Heaven was built with parents in mind as much as students. A women warden is on-site at all times, entry and exit are logged, and the building is monitored throughout. Beyond the security measures, it's simply a comfortable place to live — clean common rooms, reliable food, and a community of residents who look out for each other.",
+      "Heaven Girls Hostel was built with parents in mind as much as students. A women warden is on-site at all times, entry and exit are logged, and the building is monitored throughout. Beyond the security measures, it's simply a comfortable place to live — clean common rooms, reliable food, and a community of residents who look out for each other.",
     area: "Knowledge Park II, Greater Noida",
     addressLine: "Knowledge Park II, Greater Noida, Uttar Pradesh 201306", // TODO: replace with verified address
     nearby: "Walking distance from Sharda University",
     phone: "+91 9870392381",
     whatsapp: "+91 9870392381",
-    mapsQuery: "Nalanda Heaven Girls Hostel, Knowledge Park II, Greater Noida",
+    mapsQuery: "Heaven Girls Hostel, Knowledge Park II, Greater Noida",
     highlightFacility: "Women Warden On-Site",
-    imageLabel: "Nalanda Heaven Girls Hostel — Exterior",
+    imageLabel: "Heaven Girls Hostel — Exterior",
     folderName: "Blue Heaven Girls Hostel 1",
-    image: "/Blue Heaven Girls Hostel 1/1 B/WhatsApp Image 2026-06-19 at 11.15.54 AM.jpeg",
+    image: "/Blue Heaven Girls Hostel 1/1 B/WhatsApp Image 2026-06-19 at 11.15.55 AM (1).jpeg",
+    images: [
+      "/Blue Heaven Girls Hostel 1/1 B/WhatsApp Image 2026-06-19 at 11.15.55 AM (1).jpeg",
+      "/Blue Heaven Girls Hostel 1/1 B/WhatsApp Image 2026-06-19 at 11.15.56 AM (2).jpeg",
+      "/Blue Heaven Girls Hostel 1/1 B/WhatsApp Image 2026-06-19 at 11.15.58 AM (2).jpeg",
+      "/Blue Heaven Girls Hostel 1/1 B/WhatsApp Image 2026-06-19 at 11.16.00 AM.jpeg",
+    ],
   },
   {
     id: "blue-heaven",
@@ -64,7 +76,13 @@ export const HOSTELS: Hostel[] = [
     highlightFacility: "Indoor Recreation Room",
     imageLabel: "Blue Heaven Hostel — Exterior",
     folderName: "Blue Heaven Girls Hostel D-29",
-    image: "/Blue Heaven Girls Hostel D-29/WhatsApp Image 2026-06-19 at 1.09.20 PM.jpeg",
+    image: "/Blue Heaven Girls Hostel D-29/WhatsApp Image 2026-06-19 at 1.09.23 PM (1).jpeg",
+    images: [
+      "/Blue Heaven Girls Hostel D-29/WhatsApp Image 2026-06-19 at 1.09.23 PM (1).jpeg",
+      "/Blue Heaven Girls Hostel D-29/WhatsApp Image 2026-06-19 at 1.09.23 PM (5).jpeg",
+      "/Blue Heaven Girls Hostel D-29/WhatsApp Image 2026-06-19 at 1.09.23 PM (10).jpeg",
+      "/Blue Heaven Girls Hostel D-29/WhatsApp Image 2026-06-19 at 1.09.23 PM.jpeg",
+    ],
   },
   {
     id: "white-house-girls",
@@ -84,7 +102,13 @@ export const HOSTELS: Hostel[] = [
     highlightFacility: "Biometric Entry System",
     imageLabel: "White House Girls Hostel — Exterior",
     folderName: "White House Girls Hostel",
-    image: "/White House Girls Hostel/WhatsApp Image 2026-06-19 at 1.11.11 PM.jpeg",
+    image: "/White House Girls Hostel/WhatsApp Image 2026-06-19 at 1.11.11 PM (1).jpeg",
+    images: [
+      "/White House Girls Hostel/WhatsApp Image 2026-06-19 at 1.11.11 PM (1).jpeg",
+      "/White House Girls Hostel/WhatsApp Image 2026-06-19 at 1.11.12 PM (1).jpeg",
+      "/White House Girls Hostel/WhatsApp Image 2026-06-19 at 1.11.12 PM (10).jpeg",
+      "/White House Girls Hostel/WhatsApp Image 2026-06-19 at 1.11.12 PM.jpeg",
+    ],
   },
   {
     id: "white-house-boys",
@@ -104,7 +128,13 @@ export const HOSTELS: Hostel[] = [
     highlightFacility: "Common Recreation Lounge",
     imageLabel: "White House Boys Hostel — Exterior",
     folderName: "White House Boys Hostel",
-    image: "/White House Boys Hostel/WhatsApp Image 2026-06-19 at 1.16.05 PM.jpeg",
+    image: "/White House Boys Hostel/WhatsApp Image 2026-06-19 at 1.16.06 PM (1).jpeg",
+    images: [
+      "/White House Boys Hostel/WhatsApp Image 2026-06-19 at 1.16.06 PM (1).jpeg",
+      "/White House Boys Hostel/WhatsApp Image 2026-06-19 at 1.16.08 PM (2).jpeg",
+      "/White House Boys Hostel/WhatsApp Image 2026-06-19 at 1.16.11 PM (2).jpeg",
+      "/White House Boys Hostel/WhatsApp Image 2026-06-19 at 1.16.12 PM.jpeg",
+    ],
   },
 ];
 

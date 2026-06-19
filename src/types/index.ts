@@ -19,6 +19,7 @@ export interface Hostel {
   imageLabel: string;
   folderName?: string;
   image?: string;
+  images?: string[];
 }
 
 export interface Facility {
