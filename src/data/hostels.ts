@@ -23,6 +23,8 @@ export const HOSTELS: Hostel[] = [
     mapsQuery: "Master Class Hostel, Knowledge Park III, Greater Noida",
     highlightFacility: "Dedicated Study Floor",
     imageLabel: "Master Class Hostel — Exterior",
+    folderName: "Master class",
+    image: "/Master class/WhatsApp Image 2026-06-19 at 11.33.43 AM.jpeg",
   },
   {
     id: "nalanda-heaven",
@@ -41,6 +43,8 @@ export const HOSTELS: Hostel[] = [
     mapsQuery: "Nalanda Heaven Girls Hostel, Knowledge Park II, Greater Noida",
     highlightFacility: "Women Warden On-Site",
     imageLabel: "Nalanda Heaven Girls Hostel — Exterior",
+    folderName: "Blue Heaven Girls Hostel 1",
+    image: "/Blue Heaven Girls Hostel 1/1 B/WhatsApp Image 2026-06-19 at 11.15.54 AM.jpeg",
   },
   {
     id: "blue-heaven",
@@ -59,6 +63,8 @@ export const HOSTELS: Hostel[] = [
     mapsQuery: "Blue Heaven Hostel, Knowledge Park I, Greater Noida",
     highlightFacility: "Indoor Recreation Room",
     imageLabel: "Blue Heaven Hostel — Exterior",
+    folderName: "Blue Heaven Girls Hostel D-29",
+    image: "/Blue Heaven Girls Hostel D-29/WhatsApp Image 2026-06-19 at 1.09.20 PM.jpeg",
   },
   {
     id: "white-house-girls",
@@ -77,6 +83,8 @@ export const HOSTELS: Hostel[] = [
     mapsQuery: "White House Girls Hostel, Alpha 1, Greater Noida",
     highlightFacility: "Biometric Entry System",
     imageLabel: "White House Girls Hostel — Exterior",
+    folderName: "White House Girls Hostel",
+    image: "/White House Girls Hostel/WhatsApp Image 2026-06-19 at 1.11.11 PM.jpeg",
   },
   {
     id: "white-house-boys",
@@ -95,6 +103,8 @@ export const HOSTELS: Hostel[] = [
     mapsQuery: "White House Boys Hostel, Alpha 1, Greater Noida",
     highlightFacility: "Common Recreation Lounge",
     imageLabel: "White House Boys Hostel — Exterior",
+    folderName: "White House Boys Hostel",
+    image: "/White House Boys Hostel/WhatsApp Image 2026-06-19 at 1.16.05 PM.jpeg",
   },
 ];
 

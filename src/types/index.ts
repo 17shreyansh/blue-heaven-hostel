@@ -17,6 +17,8 @@ export interface Hostel {
   mapsQuery: string;
   highlightFacility: string;
   imageLabel: string;
+  folderName?: string;
+  image?: string;
 }
 
 export interface Facility {
@@ -66,4 +68,5 @@ export interface GalleryImage {
   category: "Rooms" | "Dining" | "Study Spaces" | "Common Areas" | "Exteriors";
   label: string;
   aspect: string;
+  src?: string;
 }

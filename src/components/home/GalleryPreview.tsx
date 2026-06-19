@@ -26,7 +26,7 @@ export default function GalleryPreview() {
         <div className="mt-12 grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-6">
           {preview.map((image, index) => (
             <FadeIn key={image.id} delay={index * 0.05}>
-              <SmartImage alt={image.label} label={image.label} aspect="aspect-square" />
+              <SmartImage src={image.src} alt={image.label} label={image.label} aspect="aspect-square" />
             </FadeIn>
           ))}
         </div>

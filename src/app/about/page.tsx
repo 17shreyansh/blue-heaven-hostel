@@ -31,12 +31,20 @@ export default function AboutPage() {
         <Container>
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
             <FadeIn>
-              <SmartImage
-                alt="Blue Heaven Hostel building exterior"
-                label="Hostel Building — Exterior"
-                aspect="aspect-[4/5]"
-                className="w-full"
-              />
+              <div className="mx-auto max-w-sm lg:max-w-none">
+                <SmartImage
+                  src="/Captain V.S Chauhan.PNG"
+                  alt="Captain V.S Chauhan"
+                  label="Captain V.S Chauhan"
+                  aspect="aspect-[4/5]"
+                  className="w-full shadow-lg"
+                  objectPosition="object-top"
+                />
+                <div className="mt-6 text-center lg:text-left">
+                  <h3 className="font-heading text-2xl font-bold text-ink">Captain V.S Chauhan</h3>
+                  <p className="mt-1 text-[15px] font-semibold tracking-wide text-primary-600 uppercase">Founder</p>
+                </div>
+              </div>
             </FadeIn>
             <FadeIn delay={0.1}>
               <span className="mb-3 block text-sm font-semibold uppercase tracking-[0.12em] text-primary-600">

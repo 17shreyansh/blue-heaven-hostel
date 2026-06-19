@@ -121,6 +121,7 @@ export default function Hero() {
               {/* Image container */}
               <div className="absolute inset-0 overflow-hidden">
                 <SmartImage
+                  src="/White House Girls Hostel/WhatsApp Image 2026-06-19 at 1.11.11 PM.jpeg"
                   alt="Blue Heaven Hostel building exterior"
                   label="Hostel Building — Exterior"
                   aspect="aspect-[3/4]"

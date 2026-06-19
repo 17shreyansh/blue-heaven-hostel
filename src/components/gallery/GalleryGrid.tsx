@@ -51,7 +51,7 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
             className="mb-4 block w-full break-inside-avoid md:mb-6"
             aria-label={`Open ${image.label} in full screen`}
           >
-            <SmartImage alt={image.label} label={image.label} aspect={image.aspect} rounded="rounded-xl" />
+            <SmartImage src={image.src} alt={image.label} label={image.label} aspect={image.aspect} rounded="rounded-xl" />
           </button>
         ))}
       </div>
@@ -82,7 +82,7 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
           </button>
 
           <div className="w-full max-w-xl">
-            <SmartImage alt={active.label} label={active.label} aspect={active.aspect} rounded="rounded-2xl" />
+            <SmartImage src={active.src} alt={active.label} label={active.label} aspect={active.aspect} rounded="rounded-2xl" />
             <p className="mt-4 text-center text-sm font-medium text-white/70">{active.label}</p>
           </div>
 

@@ -18,6 +18,7 @@ export default function AboutPreview() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
           <FadeIn>
             <SmartImage
+              src="/Blue Heaven Girls Hostel D-29/WhatsApp Image 2026-06-19 at 1.09.20 PM.jpeg"
               alt="Blue Heaven Hostel reception and common area"
               label="Common Area — Reception"
               aspect="aspect-[4/5]"

@@ -21,6 +21,7 @@ export default function HostelCard({ hostel, variant = "full" }: HostelCardProps
     >
       <div className="overflow-hidden">
         <SmartImage
+          src={hostel.image}
           alt={hostel.imageLabel}
           label={hostel.imageLabel}
           aspect={isFull ? "aspect-[16/10]" : "aspect-[4/3]"}
@@ -58,10 +59,13 @@ export default function HostelCard({ hostel, variant = "full" }: HostelCardProps
         )}
 
         <div className="mt-6 flex flex-wrap gap-3">
+          <CTAButton href={`/hostels/${hostel.id}`} variant="primary">
+            View Details
+          </CTAButton>
           <CTAButton href={mapsSearchLink(hostel.mapsQuery)} variant="secondary" icon={MapPin}>
             Get Directions
           </CTAButton>
-          <CTAButton href={telLink(hostel.phone)} variant="primary" icon={Phone}>
+          <CTAButton href={telLink(hostel.phone)} variant="secondary" icon={Phone}>
             Call
           </CTAButton>
           {isFull && (
