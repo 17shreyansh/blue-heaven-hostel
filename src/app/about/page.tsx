@@ -29,62 +29,83 @@ export default function AboutPage() {
 
       <section className="bg-white py-12 md:py-16">
         <Container>
-          <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
-            <FadeIn>
-              <div className="mx-auto max-w-sm lg:max-w-none">
-                <SmartImage
-                  src="/Captain V.S Chauhan.PNG"
-                  alt="Captain V.S Chauhan"
-                  label="Captain V.S Chauhan"
-                  aspect="aspect-[4/5]"
-                  className="w-full shadow-lg"
-                  objectPosition="object-top"
-                />
-                <div className="mt-6 text-center lg:text-left">
-                  <h3 className="font-heading text-2xl font-bold text-ink">Captain V.S Chauhan</h3>
-                  <p className="mt-1 text-[15px] font-semibold tracking-wide text-primary-600 uppercase">Founder & Director</p>
-                  
-                  <ul className="mt-4 flex flex-col gap-2 text-sm text-slate-600 lg:text-left text-left mx-auto max-w-xs lg:mx-0">
-                    <li className="flex items-center gap-2">
-                      <span className="h-1.5 w-1.5 rounded-full bg-primary-600"></span>
-                      Retired from the Indian Army
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="h-1.5 w-1.5 rounded-full bg-primary-600"></span>
-                      34 Years of Administration Experience
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="h-1.5 w-1.5 rounded-full bg-primary-600"></span>
-                      Established Blue Heaven Hostel in 2012
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="h-1.5 w-1.5 rounded-full bg-primary-600"></span>
-                      14+ Years running premium student housing
-                    </li>
-                  </ul>
+          <div className="grid items-start gap-12 lg:grid-cols-12 lg:gap-16">
+            {/* Founder Profile */}
+            <div className="lg:col-span-5">
+              <FadeIn>
+                <div className="mx-auto max-w-sm lg:max-w-none">
+                  <div className="overflow-hidden rounded-2xl bg-slate-100 ring-1 ring-line/50">
+                    <SmartImage
+                      src="/Captain V.S Chauhan.PNG"
+                      alt="Captain V.S Chauhan"
+                      label="Captain V.S Chauhan"
+                      aspect="aspect-[4/5]"
+                      className="w-full object-cover"
+                      objectPosition="object-top"
+                    />
+                  </div>
+                  <div className="mt-8 text-center lg:text-left">
+                    <h3 className="font-heading text-2xl font-bold text-ink">Captain V.S Chauhan</h3>
+                    <p className="mt-1.5 text-[15px] font-bold tracking-wide text-primary-600 uppercase">Founder & Director</p>
+                    
+                    <ul className="mt-6 flex flex-col gap-3 text-sm font-medium text-slate-700 lg:text-left text-left mx-auto max-w-xs lg:mx-0">
+                      <li className="flex items-start gap-3">
+                        <span className="mt-1.5 flex h-1.5 w-1.5 shrink-0 rounded-full bg-primary-600"></span>
+                        <span>Retired from the Indian Army</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="mt-1.5 flex h-1.5 w-1.5 shrink-0 rounded-full bg-primary-600"></span>
+                        <span>34 Years of Administration Experience</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="mt-1.5 flex h-1.5 w-1.5 shrink-0 rounded-full bg-primary-600"></span>
+                        <span>Established Blue Heaven Hostel in 2012</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="mt-1.5 flex h-1.5 w-1.5 shrink-0 rounded-full bg-primary-600"></span>
+                        <span>14+ Years running premium student housing</span>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-            </FadeIn>
-            <FadeIn delay={0.1}>
-              <span className="mb-3 block text-sm font-semibold uppercase tracking-[0.12em] text-primary-600">
-                Our Story
-              </span>
-              <h2 className="font-heading text-[28px] font-extrabold leading-[1.2] tracking-tight text-ink md:text-[36px]">
-                From One Hostel To A Trusted Network
-              </h2>
-              <p className="mt-6 text-[15px] leading-[1.8] text-slate-600">
-                What started as a single hostel in Knowledge Park has grown, over more than a decade, into
-                a network of five properties across Greater Noida. Growth came mostly through word of
-                mouth — parents who valued how seriously we took safety, and students who stayed on
-                because the day-to-day experience simply worked.
-              </p>
-              <p className="mt-4 text-[15px] leading-[1.8] text-slate-600">
-                Today, every Blue Heaven branch is run on the same principles: verified entry systems,
-                consistent housekeeping, dependable food, and staff who are actually present and
-                responsive. We&apos;ve kept the network deliberately manageable in size, so that standard
-                never slips.
-              </p>
-            </FadeIn>
+              </FadeIn>
+            </div>
+
+            {/* Story & Biography */}
+            <div className="lg:col-span-7">
+              <FadeIn delay={0.1}>
+                <span className="mb-3 block text-sm font-bold uppercase tracking-[0.12em] text-primary-600">
+                  Leadership & Vision
+                </span>
+                <h2 className="font-heading text-[28px] font-extrabold leading-[1.2] tracking-tight text-ink md:text-[36px]">
+                  Discipline Meets Hospitality
+                </h2>
+                
+                <div className="prose prose-slate mt-8 max-w-none text-[16px] leading-[1.8] text-slate-600">
+                  <p>
+                    Blue Heaven Hostels operates differently from most student accommodations, and that difference stems directly from our founder, Captain V.S Chauhan. Following a distinguished career in the Indian Army, Captain Chauhan transitioned into civilian administration, bringing with him 34 years of uncompromising standards regarding discipline, security, and operational efficiency.
+                  </p>
+                  
+                  <p className="mt-6">
+                    In 2012, noticing a gap in genuinely secure and well-managed housing for students in Greater Noida, he established the first Blue Heaven Hostel. His military background deeply influenced the operational blueprint of the property — from stringent entry logs and round-the-clock surveillance to meticulous daily housekeeping and reliable mess services. 
+                  </p>
+
+                  <div className="my-8 rounded-2xl border-l-4 border-primary-600 bg-primary-50/50 p-6 italic text-slate-700">
+                    "When parents leave their children in a new city, they are entrusting us with their most precious responsibility. Our job isn't just to provide a bed; it is to create a secure, disciplined environment where students can focus entirely on their future."
+                  </div>
+                  
+                  <h3 className="font-heading text-xl font-bold text-ink mt-8 mb-4">From One Hostel To A Trusted Network</h3>
+                  
+                  <p>
+                    What started as a single hostel in Knowledge Park has organically grown into a respected network of five properties. This growth was never driven by aggressive marketing, but rather by word of mouth from parents who valued our rigorous safety protocols, and students who appreciated a living space that simply worked without daily friction.
+                  </p>
+                  
+                  <p className="mt-6">
+                    Today, every Blue Heaven branch runs on Captain Chauhan's original principles. We have deliberately kept our network manageable in size to ensure that our standard of care, supervision, and daily upkeep never slips. When you choose Blue Heaven, you are choosing a property managed with military precision and a parent's care.
+                  </p>
+                </div>
+              </FadeIn>
+            </div>
           </div>
         </Container>
       </section>
