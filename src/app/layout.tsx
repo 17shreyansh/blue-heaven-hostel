@@ -7,7 +7,7 @@ import "@fontsource/inter/500.css";
 import "@fontsource/inter/600.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import MobileStickyCTA from "@/components/layout/MobileStickyCTA";
+import FloatingContact from "@/components/layout/FloatingContact";
 import { SITE } from "@/data/site";
 import "./globals.css";
 
@@ -62,12 +62,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
   return (
     <html lang="en">
-      <body className="flex min-h-screen flex-col pb-[68px] md:pb-0">
+      <body className="flex min-h-screen flex-col">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
-        <MobileStickyCTA />
+        <FloatingContact />
       </body>
     </html>
   );
