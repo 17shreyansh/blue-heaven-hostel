@@ -185,7 +185,7 @@ export const FAQS: FaqItem[] = [
     id: "f7",
     question: "Which colleges are nearby?",
     answer:
-      "Our branches are spread across Knowledge Park and Alpha 1, within easy reach of institutions including Sharda University, Galgotias College, Gautam Buddha University, GL Bajaj, IILM, and NIET.",
+      "Our branches are spread across Knowledge Park and Alpha 1, within easy reach of institutions including Sharda University, Galgotias College, GL Bajaj, IILM, and NIET.",
   },
   {
     id: "f8",

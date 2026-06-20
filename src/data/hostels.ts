@@ -69,7 +69,7 @@ export const HOSTELS: Hostel[] = [
       "Oxford House is run with meticulous attention to detail. Many residents stay on for the full length of their course, which says more about day-to-day life here than any brochure could. Expect dependable food, responsive staff, and a secure community of residents.",
     area: "Knowledge Park III, Greater Noida",
     addressLine: "Oxford House Girls Hostel, 29-D, Knowledge Park III, Greater Noida",
-    nearby: "10 minutes from Gautam Buddha University",
+    nearby: "10 minutes from major colleges in Knowledge Park",
     phone: "+91 9870392381",
     whatsapp: "+91 9870392381",
     mapsQuery: "Oxford House Girls Hostel, 29-D, Knowledge Park III, Greater Noida",
