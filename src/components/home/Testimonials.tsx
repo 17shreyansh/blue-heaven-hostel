@@ -27,9 +27,8 @@ export default function Testimonials() {
                 </blockquote>
                 <figcaption className="mt-6 border-t border-line pt-4">
                   <span className="block font-heading text-sm font-bold text-ink">
-                    {testimonial.name} · {testimonial.role}
+                    {testimonial.name}
                   </span>
-                  <span className="block text-sm text-slate-500">{testimonial.context}</span>
                 </figcaption>
               </figure>
             </FadeIn>

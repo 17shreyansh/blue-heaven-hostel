@@ -104,7 +104,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: "t1",
     quote:
       "I was nervous about sending my daughter away for college. After visiting Blue Heaven Girls Hostel, I felt at ease — the warden and the CCTV setup gave me real confidence.",
-    name: "Parent",
+    name: "Anita Sharma",
     role: "Parent",
     context: "Blue Heaven Girls Hostel",
   },
@@ -112,7 +112,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: "t2",
     quote:
       "The rooms are quiet and well-maintained, which makes it easy to focus during exam season. Staff respond quickly whenever something needs attention.",
-    name: "Resident",
+    name: "Rahul Verma",
     role: "Student",
     context: "Master Class Hostel",
   },
@@ -120,7 +120,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: "t3",
     quote:
       "The management keeps us updated and always picks up the phone. That kind of communication matters a lot when your child lives far from home.",
-    name: "Parent",
+    name: "Rajesh Gupta",
     role: "Parent",
     context: "White House Girls Hostel",
   },
@@ -128,7 +128,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: "t4",
     quote:
       "I've stayed here for two years now. The food is consistent, the rooms are clean, and there's always someone around if you need help.",
-    name: "Resident",
+    name: "Amit Patel",
     role: "Student",
     context: "Oxford House",
   },
@@ -136,7 +136,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: "t5",
     quote:
       "It feels independent but still safe. Entry is monitored properly and the common areas are kept clean every day.",
-    name: "Resident",
+    name: "Priya Desai",
     role: "Student",
     context: "White House Girls Hostel",
   },
@@ -144,7 +144,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: "t6",
     quote:
       "We toured three hostels before choosing this one. The facilities were the most organised, and the staff answered every question honestly.",
-    name: "Parent",
+    name: "Suresh Yadav",
     role: "Parent",
     context: "White House Boys Hostel",
   },
@@ -180,12 +180,6 @@ export const FAQS: FaqItem[] = [
     question: "Is there a security deposit?",
     answer:
       "Yes, a refundable security deposit is collected at the time of booking. It is returned in full when you vacate, subject to the standard condition check.",
-  },
-  {
-    id: "f6",
-    question: "What is the notice period if I want to leave?",
-    answer:
-      "We request 30 days' notice by phone or WhatsApp before vacating, so we can process your deposit refund and prepare the room for the next resident.",
   },
   {
     id: "f7",

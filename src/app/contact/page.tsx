@@ -50,18 +50,11 @@ export default function ContactPage() {
 
             <FadeIn delay={0.1}>
               <div className="rounded-2xl border border-line bg-white p-8 shadow-subtle md:p-10">
-                <h3 className="font-heading text-lg font-bold text-ink">Visiting Hours</h3>
+                <h3 className="font-heading text-lg font-bold text-ink">Prefer To Talk Directly?</h3>
                 <p className="mt-3 text-[15px] leading-[1.7] text-slate-600">
-                  Parents and guardians are welcome any day, 10 AM – 7 PM. A short call ahead helps us
-                  make sure someone is free to show you around.
+                  Call or WhatsApp us any time — for most questions, it&apos;s the fastest way to get an
+                  answer.
                 </p>
-                <div className="mt-6 border-t border-line pt-6">
-                  <h3 className="font-heading text-lg font-bold text-ink">Prefer To Talk Directly?</h3>
-                  <p className="mt-3 text-[15px] leading-[1.7] text-slate-600">
-                    Call or WhatsApp us any time — for most questions, it&apos;s the fastest way to get an
-                    answer.
-                  </p>
-                </div>
               </div>
             </FadeIn>
           </div>
