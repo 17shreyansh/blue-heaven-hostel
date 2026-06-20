@@ -103,10 +103,10 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: "t1",
     quote:
-      "I was nervous about sending my daughter away for college. After visiting Heaven Girls Hostel, I felt at ease — the warden and the CCTV setup gave me real confidence.",
+      "I was nervous about sending my daughter away for college. After visiting Blue Heaven Girls Hostel, I felt at ease — the warden and the CCTV setup gave me real confidence.",
     name: "Parent",
     role: "Parent",
-    context: "Heaven Girls Hostel",
+    context: "Blue Heaven Girls Hostel",
   },
   {
     id: "t2",
@@ -130,7 +130,7 @@ export const TESTIMONIALS: Testimonial[] = [
       "I've stayed here for two years now. The food is consistent, the rooms are clean, and there's always someone around if you need help.",
     name: "Resident",
     role: "Student",
-    context: "Blue Heaven Hostel",
+    context: "Oxford House",
   },
   {
     id: "t5",
