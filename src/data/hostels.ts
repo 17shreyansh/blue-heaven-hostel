@@ -17,14 +17,14 @@ export const HOSTELS: Hostel[] = [
       "Master Class Hostel was designed around one idea — that a student's room should help them concentrate, not distract them. Floors are kept quiet after study hours, common areas are cleaned daily, and every resident gets a dedicated study desk. It's a straightforward, well-run property for students who want their accommodation to simply work.",
     area: "Knowledge Park III, Greater Noida",
     addressLine: "4B, Masterclass, in front of White House, Ajmer Kaur Marg, Knowledge Park III, Greater Noida",
-    nearby: "5 minutes from Galgotias University",
+    nearby: "5 minutes from Galgotias College, GL Bajaj, IILM, and NIET",
     phone: "+91 9971170830",
     whatsapp: "+91 9971170830",
     mapsQuery: "4B, Masterclass, in front of White House, Ajmer Kaur Marg, Knowledge Park III, Greater Noida",
     highlightFacility: "Dedicated Study Floor",
     imageLabel: "Master Class Hostel — Exterior",
     folderName: "Master class",
-    image: "/Master class/WhatsApp Image 2026-06-19 at 11.33.52 AM.jpeg",
+    image: "/Master class/main.jpeg",
     images: [
       "/Master class/WhatsApp Image 2026-06-19 at 11.33.52 AM.jpeg",
       "/Master class/WhatsApp Image 2026-06-19 at 11.34.02 AM.jpeg",
@@ -50,7 +50,7 @@ export const HOSTELS: Hostel[] = [
     highlightFacility: "Women Warden On-Site",
     imageLabel: "Blue Heaven Girls Hostel — Exterior",
     folderName: "Blue Heaven Girls Hostel 1",
-    image: "/Blue Heaven Girls Hostel 1/1 B/WhatsApp Image 2026-06-19 at 11.15.55 AM (1).jpeg",
+    image: "/Blue Heaven Girls Hostel 1/1 B/main.jpeg",
     images: [
       "/Blue Heaven Girls Hostel 1/1 B/WhatsApp Image 2026-06-19 at 11.15.55 AM (1).jpeg",
       "/Blue Heaven Girls Hostel 1/1 B/WhatsApp Image 2026-06-19 at 11.15.56 AM (2).jpeg",
@@ -76,7 +76,7 @@ export const HOSTELS: Hostel[] = [
     highlightFacility: "Indoor Recreation Room",
     imageLabel: "Oxford House — Exterior",
     folderName: "Blue Heaven Girls Hostel D-29",
-    image: "/Blue Heaven Girls Hostel D-29/WhatsApp Image 2026-06-19 at 1.09.23 PM (1).jpeg",
+    image: "/Blue Heaven Girls Hostel D-29/main.jpeg",
     images: [
       "/Blue Heaven Girls Hostel D-29/WhatsApp Image 2026-06-19 at 1.09.23 PM (1).jpeg",
       "/Blue Heaven Girls Hostel D-29/WhatsApp Image 2026-06-19 at 1.09.23 PM (5).jpeg",
@@ -102,7 +102,7 @@ export const HOSTELS: Hostel[] = [
     highlightFacility: "Biometric Entry System",
     imageLabel: "White House Girls Hostel — Exterior",
     folderName: "White House Girls Hostel",
-    image: "/White House Girls Hostel/WhatsApp Image 2026-06-19 at 1.11.11 PM (1).jpeg",
+    image: "/White House Girls Hostel/main.jpeg",
     images: [
       "/White House Girls Hostel/WhatsApp Image 2026-06-19 at 1.11.11 PM (1).jpeg",
       "/White House Girls Hostel/WhatsApp Image 2026-06-19 at 1.11.12 PM (1).jpeg",
@@ -128,7 +128,7 @@ export const HOSTELS: Hostel[] = [
     highlightFacility: "Common Recreation Lounge",
     imageLabel: "White House Boys Hostel — Exterior",
     folderName: "White House Boys Hostel",
-    image: "/White House Boys Hostel/WhatsApp Image 2026-06-19 at 1.16.06 PM (1).jpeg",
+    image: "/White House Boys Hostel/main.jpeg",
     images: [
       "/White House Boys Hostel/WhatsApp Image 2026-06-19 at 1.16.06 PM (1).jpeg",
       "/White House Boys Hostel/WhatsApp Image 2026-06-19 at 1.16.08 PM (2).jpeg",
