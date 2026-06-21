@@ -13,6 +13,7 @@ import { telLink, whatsappLink, mapsSearchLink } from "@/lib/utils";
 import { MapPin, Phone, MessageCircle } from "lucide-react";
 import { FACILITIES } from "@/data/content";
 import ImageSlider from "@/components/hostels/ImageSlider";
+import Image from "next/image";
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -212,11 +213,15 @@ export default async function HostelDetailPage({ params }: Props) {
               <div className="mt-12 columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
                 {images.map((src, index) => (
                   <div key={index} className="break-inside-avoid overflow-hidden rounded-xl border border-line bg-white shadow-sm">
-                    <img
+                    <Image
                       src={src}
                       alt={`${hostel.name} Gallery Image ${index + 1}`}
-                      className="w-full object-cover transition-transform duration-500 hover:scale-105"
-                      loading="lazy"
+                      width={800}
+                      height={600}
+                      sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                      className="w-full h-auto object-cover transition-transform duration-500 hover:scale-105"
+                      placeholder="blur"
+                      blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mO88/TpfwAI8AOEB93h5gAAAABJRU5ErkJggg=="
                     />
                   </div>
                 ))}

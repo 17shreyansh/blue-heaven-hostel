@@ -196,16 +196,16 @@ export const FAQS: FaqItem[] = [
 ];
 
 export const GALLERY_IMAGES: GalleryImage[] = [
-  { id: "g1", category: "Rooms", label: "Shared Room Interior", aspect: "aspect-[4/5]", src: "/White House Girls Hostel/WhatsApp Image 2026-06-19 at 1.11.11 PM (1).jpeg" },
-  { id: "g2", category: "Common Areas", label: "Common Lounge", aspect: "aspect-square", src: "/White House Boys Hostel/WhatsApp Image 2026-06-19 at 1.16.08 PM (2).jpeg" },
-  { id: "g3", category: "Study Spaces", label: "Study Desk Setup", aspect: "aspect-[3/4]", src: "/Master class/WhatsApp Image 2026-06-19 at 11.34.02 AM.jpeg" },
-  { id: "g4", category: "Dining", label: "Dining Hall", aspect: "aspect-[4/3]", src: "/Blue Heaven Girls Hostel D-29/WhatsApp Image 2026-06-19 at 1.09.23 PM (1).jpeg" },
-  { id: "g5", category: "Exteriors", label: "Building Exterior", aspect: "aspect-[4/5]", src: "/Master class/WhatsApp Image 2026-06-19 at 11.33.43 AM.jpeg" },
-  { id: "g6", category: "Rooms", label: "Single Room Interior", aspect: "aspect-square", src: "/White House Boys Hostel/WhatsApp Image 2026-06-19 at 1.16.12 PM.jpeg" },
-  { id: "g7", category: "Common Areas", label: "Reception Area", aspect: "aspect-[3/4]", src: "/White House Girls Hostel/WhatsApp Image 2026-06-19 at 1.11.12 PM (6).jpeg" },
-  { id: "g8", category: "Study Spaces", label: "Reading Corner", aspect: "aspect-[4/5]", src: "/White House Girls Hostel/WhatsApp Image 2026-06-19 at 1.11.12 PM (3).jpeg" },
-  { id: "g9", category: "Dining", label: "Mess Counter", aspect: "aspect-square", src: "/Blue Heaven Girls Hostel 1/1 B/WhatsApp Image 2026-06-19 at 11.15.58 AM.jpeg" },
-  { id: "g10", category: "Rooms", label: "Room Washroom", aspect: "aspect-[4/3]", src: "/Master class/WhatsApp Image 2026-06-19 at 11.33.58 AM.jpeg" },
-  { id: "g11", category: "Exteriors", label: "Entrance Gate", aspect: "aspect-[3/4]", src: "/White House Girls Hostel/WhatsApp Image 2026-06-19 at 1.11.11 PM.jpeg" },
-  { id: "g12", category: "Common Areas", label: "Terrace Common Area", aspect: "aspect-[4/5]", src: "/Blue Heaven Girls Hostel D-29/WhatsApp Image 2026-06-19 at 1.09.20 PM.jpeg" },
+  { id: "g1", category: "Rooms", label: "Shared Room Interior", aspect: "aspect-[4/5]", src: "/images/WhatsApp Image 2026-06-19 at 1.09.23 PM (10).jpeg" },
+  { id: "g2", category: "Common Areas", label: "Common Lounge", aspect: "aspect-square", src: "/images/WhatsApp Image 2026-06-19 at 1.09.23 PM (11).jpeg" },
+  { id: "g3", category: "Study Spaces", label: "Study Desk Setup", aspect: "aspect-[3/4]", src: "/images/WhatsApp Image 2026-06-19 at 1.09.23 PM (7).jpeg" },
+  { id: "g4", category: "Dining", label: "Dining Hall", aspect: "aspect-[4/3]", src: "/images/WhatsApp Image 2026-06-19 at 1.11.11 PM (1).jpeg" },
+  { id: "g5", category: "Exteriors", label: "Building Exterior", aspect: "aspect-[4/5]", src: "/images/WhatsApp Image 2026-06-19 at 1.11.11 PM (2).jpeg" },
+  { id: "g6", category: "Rooms", label: "Single Room Interior", aspect: "aspect-square", src: "/images/WhatsApp Image 2026-06-19 at 1.11.12 PM (6).jpeg" },
+  { id: "g7", category: "Common Areas", label: "Reception Area", aspect: "aspect-[3/4]", src: "/images/WhatsApp Image 2026-06-19 at 1.11.12 PM.jpeg" },
+  { id: "g8", category: "Study Spaces", label: "Reading Corner", aspect: "aspect-[4/5]", src: "/images/WhatsApp Image 2026-06-19 at 1.16.06 PM (1).jpeg" },
+  { id: "g9", category: "Dining", label: "Mess Counter", aspect: "aspect-square", src: "/images/WhatsApp Image 2026-06-19 at 1.16.08 PM (1).jpeg" },
+  { id: "g10", category: "Rooms", label: "Room Washroom", aspect: "aspect-[4/3]", src: "/images/WhatsApp Image 2026-06-19 at 1.16.12 PM (1).jpeg" },
+  { id: "g11", category: "Exteriors", label: "Entrance Gate", aspect: "aspect-[3/4]", src: "/images/WhatsApp Image 2026-06-19 at 11.15.54 AM.jpeg" },
+  { id: "g12", category: "Common Areas", label: "Terrace Common Area", aspect: "aspect-[4/5]", src: "/images/WhatsApp Image 2026-06-19 at 11.15.55 AM (2).jpeg" },
 ];

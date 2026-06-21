@@ -38,6 +38,8 @@ export default function SmartImage({
           fill
           sizes={sizes}
           priority={priority}
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mO88/TpfwAI8AOEB93h5gAAAABJRU5ErkJggg=="
           className={cn("object-cover transition-transform duration-500 ease-premium group-hover:scale-105", objectPosition)}
         />
       ) : (

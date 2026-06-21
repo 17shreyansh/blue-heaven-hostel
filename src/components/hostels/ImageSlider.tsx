@@ -4,6 +4,7 @@ import { useState, useCallback } from "react";
 import { motion, AnimatePresence, Variants } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import SmartImage from "@/components/shared/SmartImage";
+import Image from "next/image";
 
 interface ImageSliderProps {
   images: string[];
@@ -73,11 +74,14 @@ export default function ImageSlider({ images, altPrefix }: ImageSliderProps) {
           exit="exit"
           className="absolute inset-0"
         >
-          <img
+          <Image
             src={images[currentIndex]}
             alt={`${altPrefix} - Image ${currentIndex + 1}`}
-            className="w-full h-full object-cover"
-            loading="lazy"
+            fill
+            sizes="(min-width: 1024px) 100vw, 100vw"
+            className="object-cover"
+            placeholder="blur"
+            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mO88/TpfwAI8AOEB93h5gAAAABJRU5ErkJggg=="
           />
         </motion.div>
       </AnimatePresence>
