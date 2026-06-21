@@ -75,7 +75,7 @@ export default function ImageSlider({ images, altPrefix }: ImageSliderProps) {
           className="absolute inset-0"
         >
           <Image
-            src={images[currentIndex]}
+            src={images[currentIndex] || ""}
             alt={`${altPrefix} - Image ${currentIndex + 1}`}
             fill
             sizes="(min-width: 1024px) 100vw, 100vw"
